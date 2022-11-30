@@ -1,0 +1,34 @@
+body{
+    padding:50px;
+}
+
+input[type=text]{
+    padding:3px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+textarea{
+    padding:3px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+div.album{
+    float: left; 
+    width: 340px; 
+    margin-right: 10px; 
+    min-height:200px;
+}
+
+div.album div.title {
+    float: right;
+}
+
+div.album div.description{
+    padding: 5px;;
+}
+
+div.album div.panel-heading a{
+    color: white;
+}

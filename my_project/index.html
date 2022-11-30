@@ -1,0 +1,23 @@
+<html ng-app="myApp">
+
+<head>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type='text/javascript' src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type='text/javascript' src="js/jquery.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/controllers/albumListController.js"></script>
+    <script type="text/javascript" src="app/controllers/albumViewController.js"></script>
+    <script type="text/javascript" src="app/controllers/photoViewController.js"></script>
+    <script type="text/javascript" src="app/services/albumService.js"></script>
+
+</head>
+
+<body ng-controller="albumListController">
+
+    <div id="content" ng-view></div>
+</body>
+
+</html>
